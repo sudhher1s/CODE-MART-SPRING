@@ -1,0 +1,135 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-section {
+  background: linear-gradient(120deg, #2874f0, #123f8a);
+  color: #fff;
+  border-radius: 14px;
+  padding: 28px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 18px;
+}
+
+.hero-text h1 {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 17px;
+  line-height: 1.5;
+  max-width: 660px;
+}
+
+.hero-actions {
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+}
+
+.primary-btn,
+.secondary-btn {
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 11px 16px;
+  font-weight: 700;
+}
+
+.primary-btn {
+  background: #fb641b;
+  color: #fff;
+}
+
+.secondary-btn {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  color: #fff;
+}
+
+.hero-badge-panel {
+  display: grid;
+  gap: 10px;
+}
+
+.badge-card {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.badge-card strong {
+  font-size: 20px;
+}
+
+.category-strip {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.category-strip div {
+  background: #fff;
+  border: 1px solid #e7ebf3;
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+  font-weight: 600;
+  color: #294574;
+}
+
+.featured-section {
+  background: #fff;
+  border: 1px solid #e7ebf3;
+  border-radius: 12px;
+  padding: 18px;
+}
+
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.section-head a {
+  color: #2874f0;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.loading-box {
+  background: #f8faff;
+  border: 1px solid #e2e9f7;
+  border-radius: 8px;
+  padding: 14px;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .category-strip {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .products-container {
+    grid-template-columns: 1fr;
+  }
+}

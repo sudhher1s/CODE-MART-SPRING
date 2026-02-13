@@ -1,0 +1,51 @@
+.profile-page {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-card {
+  width: 100%;
+  max-width: 560px;
+  background: #fff;
+  border: 1px solid #e8ecf5;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.profile-role {
+  margin-top: 8px;
+  margin-bottom: 14px;
+  color: #52607a;
+  font-weight: 600;
+}
+
+.profile-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profile-card input,
+.profile-card textarea {
+  border: 1px solid #d5def0;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.profile-card button {
+  width: fit-content;
+  background: #2874f0;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+.profile-message,
+.profile-empty {
+  margin-top: 12px;
+}

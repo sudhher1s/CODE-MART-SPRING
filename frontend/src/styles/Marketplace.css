@@ -1,0 +1,62 @@
+.marketplace-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.marketplace-header {
+  background: linear-gradient(135deg, #2874f0, #1f5ec3);
+  color: #fff;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.marketplace-header h1 {
+  margin-bottom: 8px;
+}
+
+.marketplace-search {
+  margin-top: 16px;
+  width: 100%;
+  max-width: 560px;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 15px;
+}
+
+.category-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.category-pill {
+  border: 1px solid #d8e0ff;
+  background: #fff;
+  color: #1f5ec3;
+  border-radius: 20px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.category-pill.active {
+  background: #1f5ec3;
+  color: #fff;
+  border-color: #1f5ec3;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.page-message {
+  background: #fff;
+  border: 1px solid #e5e8ef;
+  border-radius: 10px;
+  padding: 18px;
+  text-align: center;
+}
